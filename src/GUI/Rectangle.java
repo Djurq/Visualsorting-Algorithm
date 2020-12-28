@@ -21,7 +21,7 @@ public class Rectangle {
         if (min >= max) {
             throw new IllegalArgumentException("max must be greater than min");
         }
-
+///
         int i = 0;
         while (i < maxItems) {
             Random random = new Random();
